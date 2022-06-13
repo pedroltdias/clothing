@@ -1,0 +1,20 @@
+.cartao__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0480DC;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    justify-self: flex-end;
+}
+
+.cartao__botao--destaque {
+    width: 100%;
+    grid-column: span 2;
+}
+
+.cartao__botao--destaque::before {
+    margin-right: 8px;
+}
