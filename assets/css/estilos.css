@@ -151,6 +151,10 @@ body {
     content: "\e904";
 }
 
+.menu-lateral__link--carrinho::before {
+    content: "\e93a";
+}
+
 @media screen and (min-width: 1440px) {
     .menu-lateral {
         position: static;
@@ -241,16 +245,6 @@ body {
     color: #95999C;
 }
 
-.cartao__info--tempo::before {
-    content: "\e90c";
-    margin-right: 8px;
-}
-
-.cartao__info--visualizacao::before {
-    content: "\e90f";
-    margin-right: 8px;
-}
-
 .cartao__botao {
     display: flex;
     justify-content: center;
@@ -264,7 +258,7 @@ body {
 }
 
 .cartao__botao--play::before {
-    content: "\e90b";
+    content: "\e900";
     font-size: 24px;
 }
 
