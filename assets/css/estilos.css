@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'icones';
-    src: url(../font/icones.ttf);
+    src: url(../font/icomoon.ttf);
 }
 
 body {
@@ -26,12 +26,12 @@ body {
 }
 
 .cabecalho__menu i::before {
-    content: "\e904";
+    content: "\e906";
     font-size: 24px;
 }
 
 .cabecalho__notificacao i::before {
-    content: "\e906";
+    content: "\e902";
     font-size: 24px;
     padding-left: 30px;
 }
@@ -81,7 +81,7 @@ body {
         display: block;
         width: 32px;
         height: 32px;
-        background-image: url('../img/profile_2.png');
+        background-image: url('../img/pedrodias.png');
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -141,27 +141,19 @@ body {
 }
 
 .menu-lateral__link--inicio::before {
-    content: "\e902";
-}
-
-.menu-lateral__link--videos::before {
-    content: "\e90e";
-}
-
-.menu-lateral__link--picos::before {
-    content: "\e908";
-}
-
-.menu-lateral__link--integrantes::before {
     content: "\e903";
 }
 
 .menu-lateral__link--camisas::before {
-    content: "\e900";
+    content: "\e901";
 }
 
-.menu-lateral__link--pinturas::before {
-    content: "\e90a";
+.menu-lateral__link--estampas::before {
+    content: "\e904";
+}
+
+.menu-lateral__link--carrinho::before {
+    content: "\e93a";
 }
 
 @media screen and (min-width: 1440px) {
@@ -254,16 +246,6 @@ body {
     color: #95999C;
 }
 
-.cartao__info--tempo::before {
-    content: "\e90c";
-    margin-right: 8px;
-}
-
-.cartao__info--visualizacao::before {
-    content: "\e90f";
-    margin-right: 8px;
-}
-
 .cartao__botao {
     display: flex;
     justify-content: center;
@@ -276,8 +258,13 @@ body {
     justify-self: flex-end;
 }
 
-.cartao__botao--play::before {
-    content: "\e90b";
+.cartao__botao--comprar::before {
+    content: "\e900";
+    font-size: 24px;
+}
+
+.cartao__botao--promocao::before {
+    content: "\e905";
     font-size: 24px;
 }
 
