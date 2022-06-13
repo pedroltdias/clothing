@@ -257,7 +257,7 @@ body {
     justify-self: flex-end;
 }
 
-.cartao__botao--play::before {
+.cartao__botao--comprar::before {
     content: "\e900";
     font-size: 24px;
 }
