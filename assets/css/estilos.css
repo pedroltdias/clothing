@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'icones';
     src: url(../font/icones.ttf);
+    src:url(../font/icomoon.ttf);
 }
 
 body {
