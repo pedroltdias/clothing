@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'icones';
     src: url(../font/icomoon.ttf);
-    src: url(../font/icones.ttf);
 }
 
 body {
@@ -32,7 +31,7 @@ body {
 }
 
 .cabecalho__notificacao i::before {
-    content: "\e906";
+    content: "\e902";
     font-size: 24px;
 }
 
@@ -141,27 +140,15 @@ body {
 }
 
 .menu-lateral__link--inicio::before {
-    content: "\e902";
-}
-
-.menu-lateral__link--videos::before {
-    content: "\e90e";
-}
-
-.menu-lateral__link--picos::before {
-    content: "\e908";
-}
-
-.menu-lateral__link--integrantes::before {
     content: "\e903";
 }
 
 .menu-lateral__link--camisas::before {
-    content: "\e900";
+    content: "\e901";
 }
 
-.menu-lateral__link--pinturas::before {
-    content: "\e90a";
+.menu-lateral__link--estampas::before {
+    content: "\e904";
 }
 
 @media screen and (min-width: 1440px) {
